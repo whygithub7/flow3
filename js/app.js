@@ -441,7 +441,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>`;
         sub4Input.value = state.selectedKit.name;
-        sub5Input.value = location.origin + '/lander/flow1/' + state.selectedKit.mainImage;
+        sub5Input.value = location.origin + '/lander/flow3/' + state.selectedKit.mainImage;
     };
 
     const renderQuiz = () => {
